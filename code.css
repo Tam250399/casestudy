@@ -1,0 +1,73 @@
+  .board {
+      display: flex;
+      flex-wrap: wrap;
+      /* thuộc tính xuống hàng */
+      height: 400px;
+      width: 525px;
+  }
+  
+  img {
+      margin: 2px;
+      border-radius: 6px;
+      cursor: pointer;
+  }
+  
+  #button {
+      margin-top: 88px;
+      font-size: 18px;
+      background-color: rgb(130, 236, 88);
+  }
+  
+  body {
+      margin: 0px;
+      /* background-image: radial-gradient(farthest-corner at 20px 40px, #f35 10%, #43e 100%); */
+      background: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+      width: 100%;
+      background-size: cover;
+      height: 600px;
+  }
+  
+  .one {
+      padding-left: 20px;
+  }
+  
+  #result {
+      /* padding-right: 200px; */
+      color: rgb(67, 233, 155);
+  }
+  
+  .score {
+      font-size: 25px;
+      padding-bottom: 20px;
+  }
+  
+  #banner {
+      background-image: url(./banner/anh1.jpg);
+      height: 655px;
+      width: 100%;
+  }
+  
+  */ #btn {
+      font-size: 50px;
+      margin-left: 600px;
+      margin-top: 570px;
+      background-color: orange;
+      color: red;
+      border-radius: 20px;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  a:hover {
+      color: red;
+  }
+  
+  h2 {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 60px;
+      color: rgb(52, 211, 113);
+      margin-bottom: 10px;
+  }
